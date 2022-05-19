@@ -10,6 +10,7 @@ body{
     grid-template: 
     'header header header header' 50px 
     "left-menu main right-menu right-menu" 1fr 
+    "left-menu main right-menu right-menu" 50px
     "left-menu main right-menu right-menu" 50px / 
     100px 1fr 100px 50px;
 
@@ -32,6 +33,9 @@ body{
     overflow-y: scroll
 
 }
+
+
+
 
 .main {
     grid-area: main;
